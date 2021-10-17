@@ -4,26 +4,50 @@ public class PrintAllPatterns {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(" * * * * *   ");
-		System.out.println("  * * * * *  ");
-		System.out.println(" * * * * *   ");
-		System.out.println("  * * * * *  ");
-		System.out.println(" * * * * * \n");
+		PrintCheckerPattern();
+		PrintSquarePattern();
+		PrintTriangularPattern();
+		PrintStarPattern();
+    }
+    
+    static void PrintCheckerPattern() 
+    {
+    	System.out.println(" * * * * *   ");
+	System.out.println("  * * * * *  ");
+	System.out.println(" * * * * *   ");
+	System.out.println("  * * * * *  ");
+	System.out.println(" * * * * * \n");
 		
-		System.out.println("  * * * * *   ");
-		System.out.println("  *       *   ");
-		System.out.println("  *       *   ");
-		System.out.println("  *       *   ");
-		System.out.println("  * * * * * \n");
+        System.out.println("");
+    }
+   
+    static void PrintSquarePattern() 
+    {
+
+	System.out.println("  * * * * *   ");
+	System.out.println("  *       *   ");
+	System.out.println("  *       *   ");
+	System.out.println("  *       *   ");
+	System.out.println("  * * * * * \n");
 		
-		
-		System.out.println("  * * * * *  ");
-		System.out.println("   *     *   ");
+        
+        System.out.println("");
+    }
+    static void PrintTriangularPattern() 
+    {    
+	    	System.out.println("  * * * * *  ");
+		System.out.println("   *     *   ")
 		System.out.println("    *   *    ");
 		System.out.println("     * *     ");
 		System.out.println("      *    \n");
-		
-		
+	
+   
+        System.out.println("");
+    }
+    
+    static void PrintStarPattern() 
+    {
+
 		System.out.println("      *       ");
 		System.out.println("  * *   * *   ");
 		System.out.println("     * *      ");
@@ -33,5 +57,4 @@ public class PrintAllPatterns {
 	}
 
 }
-
-
+		
