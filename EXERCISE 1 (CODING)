@@ -13,30 +13,31 @@ public class PrintAllPatterns {
     static void PrintCheckerPattern() 
     {
     	System.out.println(" * * * * *   ");
-	System.out.println("  * * * * *  ");
-	System.out.println(" * * * * *   ");
-	System.out.println("  * * * * *  ");
-	System.out.println(" * * * * * \n");
+		System.out.println("  * * * * *  ");
+		System.out.println(" * * * * *   ");
+		System.out.println("  * * * * *  ");
+		System.out.println(" * * * * * \n");
 		
         System.out.println("");
     }
-   
+    
     static void PrintSquarePattern() 
     {
 
-	System.out.println("  * * * * *   ");
-	System.out.println("  *       *   ");
-	System.out.println("  *       *   ");
-	System.out.println("  *       *   ");
-	System.out.println("  * * * * * \n");
+		System.out.println("  * * * * *   ");
+		System.out.println("  *       *   ");
+		System.out.println("  *       *   ");
+		System.out.println("  *       *   ");
+		System.out.println("  * * * * * \n");
 		
         
         System.out.println("");
     }
+    
     static void PrintTriangularPattern() 
     {    
-	    	System.out.println("  * * * * *  ");
-		System.out.println("   *     *   ")
+	    System.out.println("  * * * * *  ");
+		System.out.println("   *     *   ");
 		System.out.println("    *   *    ");
 		System.out.println("     * *     ");
 		System.out.println("      *    \n");
@@ -57,4 +58,3 @@ public class PrintAllPatterns {
 	}
 
 }
-		
