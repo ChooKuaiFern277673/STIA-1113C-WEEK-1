@@ -12,7 +12,7 @@ public class PrintAllPatterns {
     
     static void PrintCheckerPattern() 
     {
-    	System.out.println(" * * * * *   ");
+    		System.out.println(" * * * * *   ");
 		System.out.println("  * * * * *  ");
 		System.out.println(" * * * * *   ");
 		System.out.println("  * * * * *  ");
@@ -36,7 +36,7 @@ public class PrintAllPatterns {
     
     static void PrintTriangularPattern() 
     {    
-	    System.out.println("  * * * * *  ");
+	   	System.out.println("  * * * * *  ");
 		System.out.println("   *     *   ");
 		System.out.println("    *   *    ");
 		System.out.println("     * *     ");
